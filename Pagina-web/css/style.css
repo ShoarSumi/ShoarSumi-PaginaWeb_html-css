@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    text-align: center;
+    color: #3C8E07;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    height: 80vh;
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contenedor-cabeza{
+    /* width: 100%; */
+    /* position: fixed; */
+    background-color: #EDECEC;
+}
+
+.contenedor-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor-nav{
+    padding: 0 .5rem;
+}
+.contenedor-nav nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.contenedor-nav nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+.texto-header{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
+}
+
+.texto-header h1{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.texto-header p{
+    font-weight: 300;
+    padding: .5rem;
+}
+
+.texto-header button{
+    text-align: center;
+    align-self: center;
+    border: none;
+    background-color: #3C8E07;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+/* fin header */
+
+/* inicio sobre nosotros */
+.sobre-nosotros{
+    margin-top: 5em;
+}
+.contenedor-sobre-nosotros{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor-sobre-nosotros .ilustracion{
+    width: 45%;
+}
+.contenedor-sobre-nosotros .ilustracion img{
+    width: 100%;
+}
+.contenedor-sobre-nosotros .texto-sobre-nosotros{
+    width: 45%;
+}
+
+.texto-sobre-nosotros h3{
+    padding: .2rem;
+    font-weight: 700;
+}
+
+.texto-sobre-nosotros p{
+    padding: .5rem;
+    font-weight: 300;
+}
+
+/* fin sobre nosotros */
+
+/* inicio Productos */
+
+.productos{
+    padding: 5rem;
+    background-color: #EDECEC;
+}
+.contenedor-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-cards .card{
+    width: 31.25%;
+}
+
+.contenedor-cards .card .img-producto{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+#html{
+    background-color: #FF7C1B;
+}
+
+#css{
+    background-color: #0180C7;
+}
+
+#js{
+    background-color: #3C8E07;
+}
+
+.contenedor-cards{
+    margin-top: 3rem;
+}
+.contenedor-cards .card img{
+    width: 100px;
+    height: 140px;
+}
+
+.contenedor-cards .texto-card{
+    background-color: white;
+    height: 300px;
+    border-radius: 0 0 20px 20px;
+}
+
+.contenedor-cards .texto-card h3{
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.contenedor-cards .texto-card p{
+    padding: 1rem;
+    font-weight: 300;
+}
+
+/* fin Productos */
+
+footer{
+    background-color: black;
+}
+
+
+.iconos{
+    padding: 5rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.caja-icono a{
+    color: white;
+    font-size: 3rem;
+}
